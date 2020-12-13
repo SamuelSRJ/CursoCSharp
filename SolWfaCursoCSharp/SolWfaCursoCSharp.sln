@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaClasseEstatica", "Apl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaConstantesEstruturas", "AplWfaConstantesEstruturas\AplWfaConstantesEstruturas.csproj", "{03EA6C8B-BE49-414D-BA30-2CB91FEFF406}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaClasseParcial", "AplWfaClasseParcial\AplWfaClasseParcial.csproj", "{A1074D28-50F1-4FD3-902F-6675B7897015}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{03EA6C8B-BE49-414D-BA30-2CB91FEFF406}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03EA6C8B-BE49-414D-BA30-2CB91FEFF406}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03EA6C8B-BE49-414D-BA30-2CB91FEFF406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1074D28-50F1-4FD3-902F-6675B7897015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1074D28-50F1-4FD3-902F-6675B7897015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1074D28-50F1-4FD3-902F-6675B7897015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1074D28-50F1-4FD3-902F-6675B7897015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
