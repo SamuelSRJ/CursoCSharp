@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaClasseParcial", "AplW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaEncapsulamento", "AplWfaEncapsulamento\AplWfaEncapsulamento.csproj", "{66664FCB-FCF6-42CD-8D47-12C041FE23D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaHeranca", "AplWfaHeranca\AplWfaHeranca.csproj", "{A9F90109-BF01-4BA0-A189-509CC7FC2AFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{66664FCB-FCF6-42CD-8D47-12C041FE23D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66664FCB-FCF6-42CD-8D47-12C041FE23D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66664FCB-FCF6-42CD-8D47-12C041FE23D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F90109-BF01-4BA0-A189-509CC7FC2AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F90109-BF01-4BA0-A189-509CC7FC2AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F90109-BF01-4BA0-A189-509CC7FC2AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F90109-BF01-4BA0-A189-509CC7FC2AFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
