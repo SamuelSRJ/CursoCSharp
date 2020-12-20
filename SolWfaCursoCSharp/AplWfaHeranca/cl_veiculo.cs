@@ -12,5 +12,10 @@ namespace AplWfaHeranca
         public string marca { get; set; }
 
         abstract public void Acelerar();
+
+        public virtual void Parar()
+        {
+            Console.WriteLine("Parou!");
+        }
     }
 }

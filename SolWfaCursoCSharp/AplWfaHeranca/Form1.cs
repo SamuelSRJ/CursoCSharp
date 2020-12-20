@@ -24,6 +24,9 @@ namespace AplWfaHeranca
 
             carro.Acelerar();
             bicicleta.Acelerar();
+
+            carro.Parar();
+            bicicleta.Parar();
         }
     }
 }

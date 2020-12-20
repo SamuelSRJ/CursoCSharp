@@ -19,5 +19,10 @@ namespace AplWfaHeranca
         {
             Console.WriteLine("Vruuuuuuuum!");
         }
+
+        public override void Parar()
+        {
+            Console.WriteLine("Paragem do carro.");
+        }
     }
 }
