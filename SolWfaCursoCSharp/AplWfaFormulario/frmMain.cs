@@ -16,5 +16,35 @@ namespace AplWfaFormulario
         {
             InitializeComponent();
         }
+
+        private void btnExecutar_Click(object sender, EventArgs e)
+        {
+            //if (chkActivate.Checked)
+            //{
+            //    lblLabel.BackColor = Color.Green;
+            //    lblLabel.Text = "Ativo";
+            //}
+            //else
+            //{
+            //    lblLabel.BackColor = Color.Red;
+            //    lblLabel.Text = "Desligado";
+            //    lblLabel.ForeColor = Color.White;
+            //}
+        }
+
+        private void chkActivate_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkActivate.Checked)
+            {
+                lblLabel.BackColor = Color.Green;
+                lblLabel.Text = "Ativo";
+            }
+            else
+            {
+                lblLabel.BackColor = Color.Red;
+                lblLabel.Text = "Desligado";
+                lblLabel.ForeColor = Color.White;
+            }
+        }
     }
 }
