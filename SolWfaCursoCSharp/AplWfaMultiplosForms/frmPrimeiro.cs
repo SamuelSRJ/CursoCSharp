@@ -24,8 +24,21 @@ namespace AplWfaMultiplosForms
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            frmUm formulario = new frmUm();
+            // geral.nome = txtNome.Text;
+            frmUm formulario = new frmUm(txtNome.Text);
             formulario.ShowDialog();
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            frmDois formulario = new frmDois();
+            formulario.ShowDialog();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            // ENCERRA A APLICAÇÃO COMO UM TODO
+            Application.Exit();
         }
     }
 }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDois.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDois.Designer.cs">
+      <DependentUpon>frmDois.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPrimeiro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,8 +64,12 @@
     <Compile Include="frmUm.Designer.cs">
       <DependentUpon>frmUm.cs</DependentUpon>
     </Compile>
+    <Compile Include="geral.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDois.resx">
+      <DependentUpon>frmDois.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPrimeiro.resx">
       <DependentUpon>frmPrimeiro.cs</DependentUpon>
     </EmbeddedResource>

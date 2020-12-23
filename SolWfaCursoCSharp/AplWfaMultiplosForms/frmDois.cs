@@ -10,28 +10,17 @@ using System.Windows.Forms;
 
 namespace AplWfaMultiplosForms
 {
-    public partial class frmUm : Form
+    public partial class frmDois : Form
     {
-        string valor;
-
-        public frmUm(string valor_nome)
+        public frmDois()
         {
             InitializeComponent();
-
-            valor = valor_nome;
-
-            lblRes.Text = valor_nome;
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
             // FECHA O FORMULÁRIO
             this.Close();
-        }
-
-        private void btnExecutar_Click(object sender, EventArgs e)
-        {
-            lblOutra.Text = valor;
         }
     }
 }
