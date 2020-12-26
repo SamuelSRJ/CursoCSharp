@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaMDIProjeto", "AplWfaM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaDataHora", "AplWfaDataHora\AplWfaDataHora.csproj", "{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaCores", "AplWfaCores\AplWfaCores.csproj", "{3DB4CAC6-2ADA-404D-8E31-4E0016D7CF76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB4CAC6-2ADA-404D-8E31-4E0016D7CF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB4CAC6-2ADA-404D-8E31-4E0016D7CF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB4CAC6-2ADA-404D-8E31-4E0016D7CF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB4CAC6-2ADA-404D-8E31-4E0016D7CF76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
