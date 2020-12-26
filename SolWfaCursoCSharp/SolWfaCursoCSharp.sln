@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaMenus", "AplWfaMenus\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaMDIProjeto", "AplWfaMDIProjeto\AplWfaMDIProjeto.csproj", "{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaDataHora", "AplWfaDataHora\AplWfaDataHora.csproj", "{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1A2EC4-267B-48CA-8549-8AF9A01C0F85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
