@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaEnvioRetorno", "AplWf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaMenus", "AplWfaMenus\AplWfaMenus.csproj", "{5F84A1E3-68A4-4A69-9F7C-7A066AFB47B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaMDIProjeto", "AplWfaMDIProjeto\AplWfaMDIProjeto.csproj", "{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{5F84A1E3-68A4-4A69-9F7C-7A066AFB47B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F84A1E3-68A4-4A69-9F7C-7A066AFB47B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F84A1E3-68A4-4A69-9F7C-7A066AFB47B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0611A32-B1F7-4AAF-B080-2F4445B9F9B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
