@@ -25,7 +25,7 @@ namespace AplWfaFicheirosTexto
             // APPEND TRUE -> Todo texto atualizado será ADIOCIONADO no arquivo
             // APPEND FALSE -> Todo texto atualizado SUBSTITUIRÁ o conteudo no arquivo
 
-            int valor = 200;
+            //int valor = 200;
             StreamWriter ficheiro = new StreamWriter(@"C:\Users\usuario\Music\file.txt", true, Encoding.Default);
             //ficheiro.WriteLine("Overwrited successfully!");
             //ficheiro.WriteLine(valor);
