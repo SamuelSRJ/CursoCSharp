@@ -18,7 +18,7 @@ namespace AplWfaFicheirosTexto
             InitializeComponent();
         }
 
-        private void btnExecutar_Click(object sender, EventArgs e)
+        private void btnGravar_Click(object sender, EventArgs e)
         {
             // Gravar ficheiro de texto
             // ASSINATURAS (LOCAL DO ARQUIVO E SEU NOME, APPEND, ENCONDING)
@@ -32,6 +32,18 @@ namespace AplWfaFicheirosTexto
             ficheiro.WriteLine(txtTexto.Text);
             txtTexto.Clear();
             txtTexto.Focus();
+            ficheiro.Dispose();
+        }
+
+        private void btnLer_Click(object sender, EventArgs e)
+        {
+            // LEITURA
+            StreamReader ficheiro = new StreamReader(@"C:\Users\usuario\Music\file.txt", Encoding.Default);
+            while (ficheiro.EndOfStream == false)
+            {
+                lstCaixa.Items.Add(ficheiro.ReadLine());
+            }
+
             ficheiro.Dispose();
         }
     }
