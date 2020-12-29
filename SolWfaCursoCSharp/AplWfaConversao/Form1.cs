@@ -20,9 +20,7 @@ namespace AplWfaConversao
 
         private void btnGravar_Click(object sender, EventArgs e)
         {
-            //StreamWriter ficheiro = new StreamWriter(@"C:\Users\usuario\Music\dados.txt", false, Encoding.Default);
-            string namefile;
-            StreamWriter ficheiro = new StreamWriter(@"C:\Users\usuario\Music\" + namefile + "txt");
+            StreamWriter ficheiro = new StreamWriter(@"C:\Users\usuario\Music\dados.txt", false, Encoding.Default);
 
             // STRING
             ficheiro.WriteLine("Essa frase é alfanumérica.");
