@@ -23,17 +23,21 @@ namespace AplWfaApagarPastasFicheiros
 
         private void btnExecutar_Click(object sender, EventArgs e)
         {
-            string[] lista_ficheiros = Directory.GetFiles(pastaorigem, "*.txt");
+            //string[] lista_ficheiros = Directory.GetFiles(pastaorigem, "*.txt");
 
-            foreach(string item in lista_ficheiros)
-            {
-                //lstLista.Items.Add(item);
-                //File.Move(item, Path.GetFileName(item));
-                File.Move(item, (pastadestino + Path.GetFileName(item)));
-            }
+            //foreach(string item in lista_ficheiros)
+            //{
+            //    //lstLista.Items.Add(item);
+            //    //File.Move(item, Path.GetFileName(item));
+            //    File.Move(item, (pastadestino + Path.GetFileName(item)));
+            //}
 
             //File.Copy((pastaorigem + "arquivo1.txt"), (pastadestino + "arquivocopia.txt"));
             //File.Move((pastaorigem + "arquivo1.txt"), (pastadestino + "arquivocopia.txt"));
+            //File.Delete(pastaorigem + "log.txt");
+
+            if(Directory.Exists(pastadestino))
+                Directory.Delete(pastadestino, true);
 
             //MessageBox.Show("Cópia realizada com sucesso!");
         }
