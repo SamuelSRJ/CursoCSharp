@@ -17,18 +17,46 @@ namespace AplWfaPastasEFicheiros
         // É POSSIVEL CRIAR DUAS PASTAS AUTOMATICAMENTE UTILIZANDO POR EXEMPLO - \trabalho\docs
         //string pasta_trabalho = @"C:\trabalho";
 
-        string pasta_config = @"C:\configuracoes\";
+        string pasta_config;
         string ficheiro_config = "config.dat";
 
+        //========================================================================================================
         public Form1()
         {
             InitializeComponent();
+
+            pasta_config = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\config\";
+            //MessageBox.Show(pasta_config);
         }
 
+        //========================================================================================================
         private void btnExecutar_Click(object sender, EventArgs e)
         {
+            GravarConfiguracoes();
+            MessageBox.Show("Configurações gravadas com sucesso!");
+        }
+
+        //========================================================================================================
+        private void btnCarregar_Click(object sender, EventArgs e)
+        {
+            // VERIFICA SE O FICHEIRO EXISTE
+            if (!File.Exists(pasta_config + ficheiro_config))
+            {
+                GravarConfiguracoes();
+            }
+
+            // CARREGAR CONFIGURAÇÕES
+            StreamReader ficheiro = new StreamReader(pasta_config + ficheiro_config, Encoding.Default);
+            txtNome.Text = ficheiro.ReadLine();
+            dtpData.Value = Convert.ToDateTime(ficheiro.ReadLine());
+            ficheiro.Dispose();
+        }
+
+        //========================================================================================================
+        private void GravarConfiguracoes()
+        {
             // VERIFICA SE A PASTA JÁ EXISTE
-            if(!Directory.Exists(pasta_config))
+            if (!Directory.Exists(pasta_config))
             {
                 Directory.CreateDirectory(pasta_config);
             }
@@ -36,24 +64,6 @@ namespace AplWfaPastasEFicheiros
             StreamWriter ficheiro = new StreamWriter(pasta_config + ficheiro_config, false, Encoding.Default);
             ficheiro.WriteLine(txtNome.Text);
             ficheiro.WriteLine(dtpData.Value.ToShortDateString());
-            ficheiro.Dispose();
-
-            MessageBox.Show("Configurações gravadas com sucesso!");
-        }
-
-        private void btnCarregar_Click(object sender, EventArgs e)
-        {
-            // VERIFICA SE O FICHEIRO EXISTE
-            if (!File.Exists(pasta_config + ficheiro_config))
-            {
-                MessageBox.Show("Não existe o ficheiro desejado");
-                return;
-            }
-
-            // CARREGAR CONFIGURAÇÕES
-            StreamReader ficheiro = new StreamReader(pasta_config + ficheiro_config, Encoding.Default);
-            txtNome.Text = ficheiro.ReadLine();
-            dtpData.Value = Convert.ToDateTime(ficheiro.ReadLine());
             ficheiro.Dispose();
         }
     }
