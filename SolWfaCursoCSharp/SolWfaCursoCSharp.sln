@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaConversao", "AplWfaCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaPastasEFicheiros", "AplWfaPastasEFicheiros\AplWfaPastasEFicheiros.csproj", "{97ABFF64-2E12-4DB2-914E-3467D7953007}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaApagarPastasFicheiros", "AplWfaApagarPastasFicheiros\AplWfaApagarPastasFicheiros.csproj", "{6E78ED50-B616-40BE-8250-EA33265A9D73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{97ABFF64-2E12-4DB2-914E-3467D7953007}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97ABFF64-2E12-4DB2-914E-3467D7953007}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97ABFF64-2E12-4DB2-914E-3467D7953007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E78ED50-B616-40BE-8250-EA33265A9D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E78ED50-B616-40BE-8250-EA33265A9D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E78ED50-B616-40BE-8250-EA33265A9D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E78ED50-B616-40BE-8250-EA33265A9D73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
