@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaPastasEFicheiros", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaApagarPastasFicheiros", "AplWfaApagarPastasFicheiros\AplWfaApagarPastasFicheiros.csproj", "{6E78ED50-B616-40BE-8250-EA33265A9D73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplWfaCaixaDialogo", "AplWfaCaixaDialogo\AplWfaCaixaDialogo.csproj", "{52839326-DBDA-496F-9A2E-FEC6971F133D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{6E78ED50-B616-40BE-8250-EA33265A9D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E78ED50-B616-40BE-8250-EA33265A9D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E78ED50-B616-40BE-8250-EA33265A9D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52839326-DBDA-496F-9A2E-FEC6971F133D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52839326-DBDA-496F-9A2E-FEC6971F133D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52839326-DBDA-496F-9A2E-FEC6971F133D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52839326-DBDA-496F-9A2E-FEC6971F133D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
