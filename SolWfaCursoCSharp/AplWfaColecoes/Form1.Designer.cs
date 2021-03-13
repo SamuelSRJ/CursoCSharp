@@ -32,11 +32,12 @@
             this.lstLista = new System.Windows.Forms.ListBox();
             this.btnList2 = new System.Windows.Forms.Button();
             this.btnHashSet = new System.Windows.Forms.Button();
+            this.btnDictionary = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExecutar
             // 
-            this.btnExecutar.Location = new System.Drawing.Point(283, 12);
+            this.btnExecutar.Location = new System.Drawing.Point(283, 27);
             this.btnExecutar.Name = "btnExecutar";
             this.btnExecutar.Size = new System.Drawing.Size(141, 51);
             this.btnExecutar.TabIndex = 0;
@@ -54,7 +55,7 @@
             // 
             // btnList2
             // 
-            this.btnList2.Location = new System.Drawing.Point(283, 69);
+            this.btnList2.Location = new System.Drawing.Point(283, 84);
             this.btnList2.Name = "btnList2";
             this.btnList2.Size = new System.Drawing.Size(141, 51);
             this.btnList2.TabIndex = 0;
@@ -64,7 +65,7 @@
             // 
             // btnHashSet
             // 
-            this.btnHashSet.Location = new System.Drawing.Point(283, 126);
+            this.btnHashSet.Location = new System.Drawing.Point(283, 141);
             this.btnHashSet.Name = "btnHashSet";
             this.btnHashSet.Size = new System.Drawing.Size(141, 51);
             this.btnHashSet.TabIndex = 2;
@@ -72,11 +73,22 @@
             this.btnHashSet.UseVisualStyleBackColor = true;
             this.btnHashSet.Click += new System.EventHandler(this.btnHashSet_Click);
             // 
+            // btnDictionary
+            // 
+            this.btnDictionary.Location = new System.Drawing.Point(283, 198);
+            this.btnDictionary.Name = "btnDictionary";
+            this.btnDictionary.Size = new System.Drawing.Size(141, 51);
+            this.btnDictionary.TabIndex = 3;
+            this.btnDictionary.Text = "Dictionary";
+            this.btnDictionary.UseVisualStyleBackColor = true;
+            this.btnDictionary.Click += new System.EventHandler(this.btnDictionary_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(436, 281);
+            this.Controls.Add(this.btnDictionary);
             this.Controls.Add(this.btnHashSet);
             this.Controls.Add(this.lstLista);
             this.Controls.Add(this.btnList2);
@@ -93,6 +105,7 @@
         private System.Windows.Forms.ListBox lstLista;
         private System.Windows.Forms.Button btnList2;
         private System.Windows.Forms.Button btnHashSet;
+        private System.Windows.Forms.Button btnDictionary;
     }
 }
 

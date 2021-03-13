@@ -82,5 +82,19 @@ namespace AplWfaColecoes
             foreach (string nome in lista_nomes)
                 lstLista.Items.Add(nome);
         }
+
+        private void btnDictionary_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> lista_valores;
+            lista_valores = new Dictionary<string, string>();
+
+            lista_valores.Add("1","João");
+            lista_valores.Add("2", "Antonio");
+
+            foreach (KeyValuePair<string, string> item in lista_valores)
+            {
+                lstLista.Items.Add(item.Key);
+            }
+        }
     }
 }
