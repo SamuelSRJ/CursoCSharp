@@ -57,5 +57,30 @@ namespace AplWfaColecoes
 
             //MessageBox.Show(NOMES.Count.ToString());
         }
+
+        private void btnList2_Click(object sender, EventArgs e)
+        {
+            List<int> listInt = new List<int>() { 5, 10, 20, 40, 80, 160 };
+            foreach (int item in listInt)
+                lstLista.Items.Add(item);
+        }
+
+        private void btnHashSet_Click(object sender, EventArgs e)
+        {
+            HashSet<string> lista_nomes = new HashSet<string>()
+            {
+                "João", "Carlos", "Rui", "Marco"
+            };
+
+            lista_nomes.Add("Nuno");
+            // O NOME "João" É AUTOMATICAMENTE IGNORADO, POIS, JÁ EXISTE
+            if(!lista_nomes.Add("João"))
+            {
+                MessageBox.Show("Esse nome já existe!");
+            }
+
+            foreach (string nome in lista_nomes)
+                lstLista.Items.Add(nome);
+        }
     }
 }
